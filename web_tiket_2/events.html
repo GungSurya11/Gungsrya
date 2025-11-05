@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="file.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Ticket Online</title>   
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+          <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="payment.html">Payment</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+          <li><img style="height: 50px; float: left;" src="assets/logo2.png" alt=""></li>
+          <li class="hideOnMobile"><a href="index.html">Home</a></li>
+          <li class="hideOnMobile"><a href="events.html">Events</a></li>
+          <li class="hideOnMobile"><a href="payment.html">Payment</a></li>
+          <li class="hideOnMobile"><a href="about.html">About</a></li>
+          <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+          <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        </ul>
+      </nav>
+
+    <main>
+        <section id="event-list">
+            <h1>Temukan Jadwal Dan Pertandingan</h1>
+            <form>
+                <div class="search">
+                    <span class="search-icon material-symbols-outlined">search</span>
+                    <input class="search-input" type="search" placeholder="Search">
+                </div>
+            </form>
+            <br>
+            <br>
+           
+            <br>
+            <table style="width: 80%;">
+            <tr>
+             <th><a href="payment.html" ><img src="assets/events1.jpg" alt="Beranda" style="width: 90%;"></a></th>
+             <th><a href="payment.html" ><img src="assets/events2.jpg" alt="Beranda" style="width: 95%;"></a></th>
+             <th><a href="payment.html" ><img src="assets/events3.jpg" alt="Beranda" style="width: 89%;"></a></th>
+            </tr>
+            <tr>
+                <th>Bali United Vs Trengganu Fc <br> 20.00 Wita</th>
+                <th>Bali United Vs Persija Jakarta <br> 21.00 Wita</th>
+                <th>Bali United Vs Bhayangkara Fc <br> 20.00 Wita</th>
+            </tr>
+            </table>
+            <h1 style="width: 100%; padding: 50px;"></h1>
+            <table style="width: 80%;">
+            <tr>
+             <th><a href="payment.html"><img src="assets/events4.jpg" alt="Beranda" style="width: 90%;"></a></th>
+             <th><a href="payment.html"><img src="assets/events5.jpg" alt="Beranda" style="width: 89%;"></a></th>
+             <th><a href="payment.html"><img src="assets/events6.jpg" alt="Beranda" style="width: 99%;"></a></th>
+            </tr>
+            <tr>
+                <th>Bali United vs Persebaya Surabaya <br> 16.00 Wita</th>
+                <th>Bali United vs Persib Bandung <br> 20.00 Wita</th>
+                <th>Bali United Vs Borneo Fc <br> 20.00 Wita</th>
+            </tr>
+            </table> 
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Megatix. Hak Cipta Dilindungi.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
