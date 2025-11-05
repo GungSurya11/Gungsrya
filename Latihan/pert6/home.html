@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .column {
+            float: left;
+        }
+
+        .column.left {
+            width: 25%;
+        }
+
+        .column.right {
+            width: 75%;
+        }
+
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .row h3 {
+            text-align: center;
+        }
+
+        @media screen and (max-width: 600px) {
+            .column.left,
+            .column.right {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Selamat datang</h1>
+    </div>
+    <div class="konten">
+        <div class="nav">
+            <ul>
+                <li class="active"><a href="home.html">List Movie</a></li>
+                <li><a href="#news">Theater</a></li>
+                <li><a href="kontak.html">Contact</a></li>
+            </ul>
+        </div>
+        <h2><u>Movie List</u></h2>
+        <div class="row">
+            <h3>GODZILLA X KONG: THE NEW EMPIRE</h3>
+            <hr>
+            <div class="column left">
+                <img src="../gambar/kong.jpg" alt="kong" width="300px">
+            </div>
+            <div class="column right">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
+                    aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque
+                    tortor sed accumsan convallis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
+                    aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque
+                    tortor sed accumsan convallis.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>GHOSTBUSTERS: FROZEN EMPIRE</h3>
+            <hr>
+            <div class="column left">
+                <img src="../gambar/24GFEE.jpg" alt="kong" width="300px">
+            </div>
+            <div class="column right">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
+                    aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque
+                    tortor sed accumsan convallis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
+                    aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque
+                    tortor sed accumsan convallis.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>AGAK LAEN</h3>
+            <hr>
+            <div class="column left">
+                <img src="../gambar/agak.jpg" alt="kong" width="300px">
+            </div>
+            <div class="column right">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
+                    aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque
+                    tortor sed accumsan convallis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
+                    aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque
+                    tortor sed accumsan convallis.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copy right 2024</p>
+    </div>
+</body>
+
+</html>
